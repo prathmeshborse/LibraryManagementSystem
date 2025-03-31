@@ -30,7 +30,7 @@ LibraryManagementSystem/
 │   │   ├── dao/                   (Database Access using JDBC)
 │   │   ├── service/               (Business logic layer)
 │   │   ├── networking/            (Client-Server Communication)
-│   │   ├── controller/            (Manages UI interactions)
+│   │   ├── database            
 │   │   ├── ui/                    (Java Swing GUI components)
 │   │   ├── util/                  (Utility classes)
 │── pom.xml                         (Maven Dependencies)
@@ -47,8 +47,8 @@ cd LibraryManagementSystem
 ### 2. Configure Database
 - Create a MySQL database:
 ```sql
-CREATE DATABASE library;
-USE library;
+CREATE DATABASE LibraryDB;
+USE LibraryDB;
 ```
 - Run the provided `schema.sql` file to create necessary tables.
 
@@ -62,13 +62,9 @@ config.setPassword("your_password");
 ```
 
 ### 4. Build and Run the Project
-- **Start the Server**:
+- **Run**:
 ```bash
-java -cp target/LibraryManagementSystem.jar com.library.networking.LibraryServer
-```
-- **Run the Client**:
-```bash
-java -cp target/LibraryManagementSystem.jar com.library.ui.Main
+java Main.java
 ```
 
 ## Usage
