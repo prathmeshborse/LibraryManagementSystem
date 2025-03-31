@@ -64,7 +64,7 @@ config.setPassword("your_password");
 ### 4. Build and Run the Project
 - **Run**:
 ```bash
-java Main.java
+javac Main.java
 ```
 
 ## Usage
@@ -84,8 +84,5 @@ java Main.java
 
 ## Contributions
 Feel free to fork the repository and contribute!
-
-## License
-This project is licensed under the MIT License.
 
 
