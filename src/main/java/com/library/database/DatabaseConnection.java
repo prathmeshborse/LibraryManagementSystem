@@ -8,8 +8,8 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/LibraryDB";
-    private static final String USER = "root";  // Change if needed
-    private static final String PASSWORD = "redhat123";  // Change if needed
+    private static final String USER = "";  // Change if needed
+    private static final String PASSWORD = "";  // Change if needed
 
     private static HikariDataSource dataSource;
 
