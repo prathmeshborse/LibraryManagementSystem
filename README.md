@@ -56,7 +56,7 @@ USE LibraryDB;
 Update `DatabaseConnection.java` with your MySQL credentials:
 ```java
 HikariConfig config = new HikariConfig();
-config.setJdbcUrl("jdbc:mysql://localhost:3306/library");
+config.setJdbcUrl("jdbc:mysql://localhost:3306/LibraryDB");
 config.setUsername("your_username");
 config.setPassword("your_password");
 ```
