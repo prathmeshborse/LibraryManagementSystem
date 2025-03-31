@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS librarydb;
-USE librarydb;
+CREATE DATABASE IF NOT EXISTS LibraryDB;
+USE LibraryDB;
 
 -- Users Table
 CREATE TABLE IF NOT EXISTS users (
